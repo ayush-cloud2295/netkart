@@ -43,7 +43,7 @@ function Navbar() {
                                 <div className="dropdown-menu p-4">
                                     <div className="mb-3">
                                         <label htmlFor="price" className="form-label">Price: {filterPrice}</label>
-                                        <input className="form-range" id="price" type="range" min="0" max="500" step="50" value={filterPrice} onChange={(e) => handleFilter(null, e.target.value)} />
+                                        <input className="form-range" id="price" type="range" min="0" max="500000" step="50" value={filterPrice} onChange={(e) => handleFilter(null, e.target.value)} />
                                     </div>
                                     <div><hr className="dropdown-divider" /></div>
                                     <div className="mb-3">

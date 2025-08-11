@@ -23,7 +23,7 @@ function ProductContext({ children }) {
     // different states 
     const [products, setProducts] = useState(data);
     const [searchText, setSearchText] = useState("");
-    const [filterPrice, setFilterPrice] = useState(500);
+    const [filterPrice, setFilterPrice] = useState(500000);
     const [filterCategories, setFilterCategories] = useState([]);
     const [cart, setCart] = useState({ count: 0, cost: 0, items: [] });
     const [orders, setOrders] = useState([]);
